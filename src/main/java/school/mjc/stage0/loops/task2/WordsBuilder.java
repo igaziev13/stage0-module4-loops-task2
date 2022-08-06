@@ -6,9 +6,9 @@ public class WordsBuilder {
         String result="";
         while (i<=length)
         {
-            result = result + chars[i]; //result.concat(chars[i]);
+            result = result + chars[i];
             i++;
         }
-        System.out.println(result);
+        System.out.print(result);
     }
 }
